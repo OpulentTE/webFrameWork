@@ -1,0 +1,40 @@
+
+/*
+create a folder structure:
+
+a)resources folder:
+  - a config.properties
+  - common file i.eusername, password, url, api and any data
+
+b)src/test/java:
+   1) driver utility package:
+    - base driver utilities class
+    - private webdriver driver
+    - public static WebDriver getDriver - webdriver manager
+    - public static void quitDriver
+
+   2) pageObjects utilities package -  keep all pages as a class with the elements and functions that controls the page
+    - below we have login page
+    - login page class
+    - private WebDriver method
+    - public LoginPage instructor
+
+   3) test package:
+    - test that runs the webpage
+
+   4) testData package:
+    -  store data i.e json, faker
+
+   5) utilities package:
+    - java class that read config.properties
+    - common element method are stored here
+
+
+    To run your test:
+    To use the base class:
+
+
+
+    what should inherit the base class
+
+*/
