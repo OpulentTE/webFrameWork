@@ -40,7 +40,7 @@ public class BaseDriverUtils {
             chrome.merge(desire);
 
 
-            WebDriverManager.chromedriver().driverVersion("116").setup();
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(chrome);
 
             //navigate to the url
