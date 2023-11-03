@@ -45,14 +45,16 @@ public class runner {
         InventoryPage Inventory = new InventoryPage(driver);
         System.out.println(Inventory.getItemsList());
 
-        String itemName = Inventory.getItemName(3); // Get the name of the third item (index 2)
-        if (itemName != null) {
-            // Click on the item using the name or any other appropriate action
-            Inventory.clickItemByName(itemName);
-        } else {
-            System.out.println("Item not found or index out of bounds.");
-        }
-        System.out.println("The item name: " +itemName);
+        Inventory.clickItemByName("Sauce Labs Bolt T-Shirt");
+
+//        String itemName = Inventory.getItemName(3); // Get the name of the third item (index 2)
+//        if (itemName != null) {
+//            // Click on the item using the name or any other appropriate action
+//            Inventory.clickItemByName(itemName);
+//        } else {
+//            System.out.println("Item not found or index out of bounds.");
+//        }
+//        System.out.println("The item name: " +itemName);
     }
 
 
